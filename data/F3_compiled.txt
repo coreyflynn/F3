@@ -1,0 +1,59 @@
+name	upper body	lower body	cardio	speed	stretching	throwing	other	veggies
+Kuger	5	0	9	5	1	7	2	2
+
+Trahey	6	5	8	3	5	6	5	3
+
+jeff	20	4	4	1	18	6	10	11
+
+Knute	5	1	10	3	0	6	4	7
+
+Geoa	2	0	7	2	5	6	2	8
+
+Jsuss	0	0	0	0	1	0	15	21
+
+Tubs	1	0	5	2	3	3	4	7
+
+Mary	4	0	7	4	11	7	12	16
+
+Schachter	20	1	5	2	18	4	19	15
+
+Rosie	4	4	1	1	3	1	0	4
+
+Hannah	7	2	4	6	2	2	1	17
+
+Dan	4	0	0	0	0	0	1	12
+
+flash	1	1	11	1	1	4	5	18
+
+Ryan S	3	1	1	1	0	0	0	1
+
+Dave	9	2	6	3	18	7	10	13
+
+Kirsten	2	2	7	3	0	4	2	1
+
+Chris Waite	10	3	3	3	3	8	9	7
+
+Ryan	8	6	15	4	9	2	7	3
+
+Ali Main	3	0	7	4	0	6	2	2
+
+Phoebe	1	8	11	6	5	6	10	12
+
+Annie	0	4	6	0	0	0	4	4
+
+Adge	5	6	7	1	4	3	4	12
+
+Aimie Kawai	1	0	7	2	2	4	6	15
+
+Miller	0	0	1	0	0	0	1	0
+
+Marshall	0	0	0	0	0	0	2	0
+
+India	0	0	5	5	4	7	4	5
+
+Steve	15	0	4	3	1	5	5	8
+
+Corey	16	3	5	7	16	7	4	14
+
+Todd	2	6	21	0	18	5	6	0
+

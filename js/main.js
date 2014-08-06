@@ -8,6 +8,7 @@ var sorted_feat_count_array = [];
 var category_centers = {};
 var category_colors = {};
 var raw_response = {};
+var state = "feat";
 
 // colors
 category_colors = {
@@ -26,13 +27,13 @@ category_colors = {
 bubble_view = new Barista.Views.BubbleView({
     el: $('#bubble_target'),
     plot_height:1000,
-    min_val:0.1,
-    max_val:10,
+    min_val:3,
+    max_val:20,
     v_split:'category'
 });
 
 
-$.getJSON("data/F3through0721.json",function(res){
+$.getJSON("data/F3.json",function(res){
 	raw_response = res;
     var players = _.keys(res);
 	players.forEach(function(player){
@@ -80,14 +81,20 @@ $.getJSON("data/F3through0721.json",function(res){
 
     // bind toggles
     $("#player_toggle").click(function(){
-        sort_by_players();
-        $("#player_toggle").toggleClass("selected");
-        $("#feat_toggle").toggleClass("selected");
+        if (state === "feat"){
+            sort_by_players();
+            $("#player_toggle").toggleClass("selected");
+            $("#feat_toggle").toggleClass("selected");
+            state = "player";
+        }
     });
     $("#feat_toggle").click(function(){
-        sort_by_feats();
-        $("#player_toggle").toggleClass("selected");
-        $("#feat_toggle").toggleClass("selected");
+        if (state === "player"){
+            sort_by_feats();
+            $("#player_toggle").toggleClass("selected");
+            $("#feat_toggle").toggleClass("selected");
+            state = "feat";
+        }
     });
 });
 
@@ -111,7 +118,7 @@ function sort_by_players(){
     var row = 0;
     var column = -1;
     var xUnit = bubble_view.width / 7;
-    sorted_player_count_array.forEach(function(o,i){
+    _.shuffle(sorted_player_count_array).forEach(function(o,i){
         column += 1;
         if (column % 5 === 0){
             row += 1;
@@ -161,8 +168,8 @@ function draw_player_labels(){
 
 function draw_feat_labels(){
     var labels = bubble_view.vis.selectAll(".label").data([]).exit().remove();
-    var label_text = ["Lower Body", "Throwing", "Speed", "Stretching", "Upper Body",
-                      "Other", "Veggies", "Cardio", "Abs"]
+    var label_text = ["Throwing", "Cardio", "Upper Body", "Stretching", "Abs",
+                      "Veggies", "Lower Body", "Speed", "Other"]
     var labels = bubble_view.vis.selectAll(".label").data(label_text);
 
     labels.enter()
