@@ -1,0 +1,34 @@
+{
+  "name": "barista",
+  "homepage": "http://cmap.github.io/barista/",
+  "authors": [
+    "Corey Flynn <flynn.corey@gmail.com>"
+  ],
+  "description": "Connectivity Map Components",
+  "main": "barista.main.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.3",
+    "hogan": "~3.0.0",
+    "highlightjs": "~8.0.0",
+    "jquery.cookie": "~1.4.1",
+    "offline": "~0.7.3"
+  },
+  "_release": "9d0366815a",
+  "_resolution": {
+    "type": "branch",
+    "branch": "feature/BubbleViewUpdate",
+    "commit": "9d0366815af3977d84c54e43ceb8ec10166785e6"
+  },
+  "_source": "git@github.com:cmap/barista.git",
+  "_target": "feature/BubbleViewUpdate",
+  "_originalSource": "git@github.com:cmap/barista.git"
+}

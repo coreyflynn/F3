@@ -1,0 +1,42 @@
+name	upper body	lower body	cardio	speed	stretching	throwing	other	veggies
+Kuger	3	0	5	3	0	3	1	2
+Trahey	5	5	5	1	1	2	3	2
+jeff	11	4	2	1	11	4	5	8
+Toddd The	0	0	1	0	1	0	0	0
+Todd The	0	0	2	0	1	0	1	0
+Knute	4	1	6	2	0	3	2	5
+Geoa	2	0	5	2	3	4	2	8
+Jsuss	0	0	0	0	1	0	6	11
+Tubs	1	0	5	2	3	3	4	7
+Mary	1	0	3	2	5	4	7	10
+Schachter	10	0	3	1	9	3	10	8
+The todd	0	0	3	0	3	0	0	0
+Rosie	4	4	1	1	3	1	0	4
+Hannah	4	2	4	4	1	0	1	12
+Dan	1	0	0	0	0	0	0	7
+flash	1	1	6	1	0	4	4	12
+Ryan S	2	0	1	0	0	0	0	1
+tHE tODD	0	0	1	0	1	0	0	0
+Dave	5	2	5	2	11	3	6	10
+Ali main	1	0	3	2	0	2	0	1
+Kirsten	2	2	3	1	0	1	2	1
+Chris Waite	6	3	1	1	2	3	6	4
+phoebe	0	0	1	0	1	0	1	1
+Todd	0	2	4	0	4	2	0	0
+Ryan	4	4	11	4	8	2	6	1
+The Todd	1	1	1	0	1	0	1	0
+Ali Main	1	0	2	0	0	2	0	0
+Phoebe	0	6	6	3	2	2	5	5
+Annie	0	3	4	0	0	0	0	3
+Adge	4	5	7	1	3	3	3	11
+Aimie Kawai	1	0	2	1	2	2	2	8
+Jeff	1	0	0	0	1	0	1	1
+Miller	0	0	1	0	0	0	1	0
+Marshall	0	0	0	0	0	0	2	0
+India	0	0	2	2	1	3	3	4
+mary	1	0	1	0	1	0	0	1
+Steve	10	0	2	2	0	2	3	4
+Corey	11	2	3	5	11	4	1	9
+Todd, the	1	0	1	0	1	0	1	0
+Andy Schachter	2	0	1	0	2	0	2	2
+Ryan Schwartz	1	1	0	1	0	0	0	0

@@ -1,0 +1,23 @@
+.control-container{
+    position:absolute;
+    z-index: 2;
+}
+.control{
+    font-size: 40pt;
+    opacity: 0.54;
+    font-family: "Open Sans";
+    cursor: default;
+    color: black;
+    -webkit-transition: all 500ms;
+        transition: all 500ms
+}
+
+.selected{
+    color: blue;
+    -webkit-transition: all 500ms;
+        transition: all 500ms
+}
+
+.toggle{
+    cursor: pointer;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "barista",
+  "version": "0.0.0",
+  "homepage": "http://cmap.github.io/barista/",
+  "authors": [
+    "Corey Flynn <flynn.corey@gmail.com>"
+  ],
+  "description": "Connectivity Map Components",
+  "main": "barista.main.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.3",
+    "hogan": "~3.0.0",
+    "highlightjs": "~8.0.0",
+    "jquery.cookie": "~1.4.1",
+    "offline": "~0.7.3"
+  }
+}

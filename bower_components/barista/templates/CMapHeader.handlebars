@@ -1,0 +1,60 @@
+<div class="cmap-header">
+
+	<!-- large screens -->
+	<div class="row hidden-xs">
+		<div class="row">
+			<div class="col-sm-12 cmap-header-toolbar">
+				<div class="col-xs-1">
+					<p id="cmapHeaderMenuButton" title="menu" class="cmap-header-link-no-border pull-left">menu</p>
+				</div>
+				<div class="col-xs-2">
+					<a href="http://lincscloud.org/"><img class="cmap-header-image" src="http://cmap.github.io/cdn/img/logos/linscloud_logo_RGB_small-cloud-web.png"></a>
+				</div>
+				<div class="col-xs-9">
+					{{#if user}}
+						<p title="signout" class="cmap-header-link pull-right" onclick="window.location.href = 'http://apps.lincscloud.org/signout';">logout</p>
+						<p title="profile" class="cmap-header-username pull-right">{{user}}</p>
+					{{else}}
+						<p title="signout" class="cmap-header-link pull-right" onclick="window.location.href = 'http://apps.lincscloud.org/signout';"></p>
+					{{/if}}
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<h3 class="col-sm-offset-1 col-sm-10 cmap-title-text cmap-center-text">{{ title }}</h3>
+		</div>
+		<div class="row">
+			<p class="col-sm-offset-1 col-sm-10 text-muted cmap-subhead-text cmap-center-text">{{ subtitle }}</p>
+		</div>
+	</div>
+
+
+	<!-- small screens -->
+	<div class="row visible-xs">
+	                         <div class="col-xs-offset-1 col-xs-10">
+	                             <p class="col-xs-12 cmap-center-text cmap-header-username">
+	                                 {{#if user}}
+	                                     {{ user }}
+	                                 {{/if}}
+	                                 <i title="Home" class="fa fa-home cmap-header-link" onclick="window.location.href = 'http://lincscloud.org';"></i>
+	                                 <i title="Apps" class="fa fa-th-large cmap-header-link" onclick="window.location.href = 'http://apps.lincscloud.org/app_list';"></i>
+	                                 <i title="Developer" class="fa fa-cogs cmap-header-link" onclick="window.location.href = 'http://developer.lincscloud.org/';"></i>
+									 <i title="Projects" class="fa fa-book cmap-header-link" onclick="window.location.href = 'http://projects.lincscloud.org/';"></i>
+	                                 <i title="Support" class="fa fa-question-circle cmap-header-link" onclick="window.location.href = '{{ support_link }}';"></i>
+	                                 <!-- <i data-toggle="modal" href="#aboutModal" title="about" class="fa fa-info-circle cmap-header-link"></i> -->
+	                                 {{#if user}}
+	                                     <i title="signout" class="fa fa-sign-out cmap-header-link" onclick="window.location.href = 'http://apps.lincscloud.org/signout';"></i>
+	                                 {{else}}
+	                                     <i title="signin" class="fa fa-sign-in cmap-header-link" onclick="window.location.href = 'http://apps.lincscloud.org/signin';"></i>
+	                                 {{/if}}
+	                             </p>
+	                         </div>
+
+		<div class="row">
+		    <h3 class="col-sm-offset-1 col-sm-10 cmap-title-text cmap-center-text">{{ title }}</h3>
+		</div>
+		<div class="row">
+			<p class="col-sm-offset-1 col-sm-10 text-muted cmap-subhead-text cmap-center-text">{{ subtitle }}</p>
+		</div>
+	</div>
+</div>
