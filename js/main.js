@@ -32,7 +32,7 @@ bubble_view = new Barista.Views.BubbleView({
 });
 
 
-$.getJSON("/data/F3through0721.json",function(res){
+$.getJSON("data/F3through0721.json",function(res){
 	raw_response = res;
     var players = _.keys(res);
 	players.forEach(function(player){
