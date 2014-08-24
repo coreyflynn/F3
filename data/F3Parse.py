@@ -2,15 +2,16 @@ import json
 import collections
 
 # the path to the file we are going to parse
-filename = 'F3Pivot-txt.tsv'
+filename = 'F3through0824.txt'
 
 # set up a default dicitonary to hold our data
 data = collections.defaultdict(lambda:collections.defaultdict(int))
 
 # open the file
-with open(filename, 'rb') as f:
+with open(filename, 'rU') as f:
 	# grab the headers
 	headers = f.readline()
+	print(headers)
 
 	# grab an array of all the lines in the file
 	lines = f.readlines()

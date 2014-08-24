@@ -28,7 +28,7 @@ bubble_view = new Barista.Views.BubbleView({
     el: $('#bubble_target'),
     plot_height:1000,
     min_val:3,
-    max_val:20,
+    max_val:30,
     v_split:'category'
 });
 
